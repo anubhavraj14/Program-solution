@@ -1,0 +1,9 @@
+void printLinkedList(SinglyLinkedListNode* head) {
+//Here is the solution---------
+if(head!=nullptr)
+{
+    cout << head->data << endl;
+    printLinkedList(head->next);
+}
+
+}
